@@ -8,7 +8,7 @@ Selector is a React Native APP that helps you make your decision!
 - [React Native Paper] - components for React Native
 - [Expo] - a framework and a platform for universal React applications
 
-# Roadmap
+# Next Step
 - StyleSheet
 - Allow user to add more categories and options
 
