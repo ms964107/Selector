@@ -5,37 +5,29 @@ export const layout = StyleSheet.create({
 		width: "100%",
 		height: "100%",
 		backgroundColor: "rgba(247, 247, 243, 1)",
-		// flex: 1,
 	}
 })
 
 export const mainLevel = StyleSheet.create({
 	main: {
-		// flex: 1,
 		width: "100%",
-		height: "60%",
+		height: "55%",
 	},
 	top: {
 		width: "100%",
 		fontSize: 30,
-		paddingTop: "10%",
+		paddingTop: "5%",
 		display: "flex",
 	},
 	headerWrapper: {
-		// flex: 1,
 		display: "flex",
-		// flexDirection: "row",
 	},
 	headerText: {
-		// display: "flex",
 		textAlign: "center",
 		fontSize: 25,
-		// marginLeft: "20%",
-		// fontFamily: "cursive",
 	},
 	headerEmoji: {
 		marginLeft: 10,
-		// display: "flex",
 		textAlign: "center",
 		fontSize: 35,
 		// fontFamily: "sans-serif",
@@ -53,7 +45,7 @@ export const mainLevel = StyleSheet.create({
 		textAlign: "center",
 	},
 	category: {
-		marginTop: "10%",
+		marginTop: "5%",
 		marginBottom: "5%",
 		width: "80%",
 		marginRight: "auto",
@@ -70,7 +62,7 @@ export const mainLevel = StyleSheet.create({
 		marginLeft: "auto",
 	},
 	result: {
-		paddingTop: "15%",
+		paddingTop: "7%",
 		fontSize: 30,
 		textAlign: "center",
 	}
@@ -78,25 +70,18 @@ export const mainLevel = StyleSheet.create({
 
 export const botLevel = StyleSheet.create({
 	bot: {
-		// width: "100%",
-		// height: "20%",
 		display: "flex",
 		textAlign: "center",
 	},
 	language: {
-		// top: 0,
-		// width: "60%",
-		// display: "flex",
-		// // marginBottom: 15,
-		// marginHorizontal: "20%",
-		top: 40,
+		top: 50,
 		height: "auto",
 	},
 	flag: {
 		marginRight: 10,
 	},
 	about: {
-		// flex: 1,
+		top: 15,
 		justifyContent: "center",
 		marginRight: "auto",
 		marginLeft: "auto",
