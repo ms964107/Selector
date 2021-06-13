@@ -5,85 +5,101 @@ export const layout = StyleSheet.create({
 		width: "100%",
 		height: "100%",
 		backgroundColor: "rgba(247, 247, 243, 1)",
-		justifyContent: "center",
-		alignContent: "center",
-		textAlign: "center",
-		flex: 1,
+		// flex: 1,
 	}
 })
 
 export const mainLevel = StyleSheet.create({
 	main: {
-		flex: 1,
+		// flex: 1,
 		width: "100%",
-		height: "85%",
-		justifyContent: "center",
-		alignContent: "center",
-		textAlign: "center",
+		height: "60%",
 	},
 	top: {
 		width: "100%",
-		textAlign: "center",
 		fontSize: 30,
-		paddingTop: 15 + "px",
+		paddingTop: "10%",
+		display: "flex",
+	},
+	headerWrapper: {
+		// flex: 1,
+		display: "flex",
+		// flexDirection: "row",
 	},
 	headerText: {
-		display: "flex",
+		// display: "flex",
+		textAlign: "center",
+		fontSize: 25,
+		// marginLeft: "20%",
 		// fontFamily: "cursive",
 	},
 	headerEmoji: {
-		marginLeft: 10 + "px",
-		display: "flex",
+		marginLeft: 10,
+		// display: "flex",
+		textAlign: "center",
+		fontSize: 35,
 		// fontFamily: "sans-serif",
 	},
 	addCategory: {
 		display: "flex",
 		position: "absolute",
-		right: 0,
-		top: 10 + "px",
+		right: 10,
+		bottom: -10,
 	},
 	question: {
 		marginTop: "10%",
-		fontSize: 15,
+		fontSize: 25,
 		marginBottom: "5%",
+		textAlign: "center",
 	},
 	category: {
 		marginTop: "10%",
 		marginBottom: "5%",
+		width: "80%",
+		marginRight: "auto",
+		marginLeft: "auto",
 	},
 	categoryHeader: {
 		marginBottom: "5%",
+		textAlign: "center",
+		fontSize: 20,
+	},
+	choose: {
+		width: "auto",
+		marginRight: "auto",
+		marginLeft: "auto",
 	},
 	result: {
 		paddingTop: "15%",
 		fontSize: 30,
+		textAlign: "center",
 	}
 })
 
 export const botLevel = StyleSheet.create({
 	bot: {
-		width: "100%",
-		height: "15%",
+		// width: "100%",
+		// height: "20%",
 		display: "flex",
-		justifyContent: "center",
-		alignContent: "center",
 		textAlign: "center",
 	},
 	language: {
-		justifyContent: "center",
-		alignContent: "center",
-		width: "100%",
-		display: "flex",
-		marginBottom: 15 + "px",
+		// top: 0,
+		// width: "60%",
+		// display: "flex",
+		// // marginBottom: 15,
+		// marginHorizontal: "20%",
+		top: 40,
+		height: "auto",
 	},
 	flag: {
-		marginRight: 10 + "px",
+		marginRight: 10,
 	},
 	about: {
-		flex: 1,
+		// flex: 1,
 		justifyContent: "center",
-		textAlign: "center",
-		color: 'rgba(180, 180, 180, 1)',
+		marginRight: "auto",
+		marginLeft: "auto",
 	},
 	authorWrapper: {
 		display: "flex",
@@ -91,7 +107,11 @@ export const botLevel = StyleSheet.create({
 	},
 	app: {
 		fontStyle: 'italic',
-		marginRight: 5 + "px",
-		flexDirection: "row",
+		textAlign: "center",
+		color: 'rgba(180, 180, 180, 1)',
+	},
+	textAlign: {
+		textAlign: "center",
+		color: 'rgba(180, 180, 180, 1)',
 	}
 })
