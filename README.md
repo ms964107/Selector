@@ -3,9 +3,9 @@
 Don't know what to eat for supper? No problem!
 Selector is a React Native APP that helps you make your decision!
 
-![](GIF/zh.gif)
-![](GIF/en.gif)
-![](GIF/language.gif)
+<a href="url"><img src="GIF/zh.gif" width="200" ></a>
+<a href="url"><img src="GIF/en.gif" width="200" ></a>
+<a href="url"><img src="GIF/language.gif" width="200" ></a>
 
 # Tools
 - [React Native] - native development with React for mobile
