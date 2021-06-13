@@ -3,6 +3,10 @@
 Don't know what to eat for supper? No problem!
 Selector is a React Native APP that helps you make your decision!
 
+![](zh.gif)
+![](en.gif)
+![](language.gif)
+
 # Tools
 - [React Native] - native development with React for mobile
 - [React Navigation] - routing and navigation for Expo and React Native
