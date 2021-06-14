@@ -43,15 +43,6 @@ export const category = {
 		'options_zn': ["可不可", "一號", "大杯珍奶半糖少冰", "柳橙汁"],
 		'url': ''
 	},
-	'lover': {
-		'name': 'Lover',
-		'header': 'Which one should I go out with this evening? <3',
-		'name_zn': '約會人選',
-		'header_zn': '今天適合跟誰約會呢？',
-		'options': ["bruh you don't any"],
-		'options_zn': ["bruh 你以為你有？笑死"],
-		'url': ''
-	},
 	'car': {
 		'name': 'Car',
 		'header': 'Which car should I drive today?',

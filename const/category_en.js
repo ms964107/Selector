@@ -21,10 +21,6 @@ export const drinks = [
 	"Coffee", "Bubble milk tea with no bubbles", "A shot of Martini", "Whiskey neat"
 ]
 
-export const lover = [
-	"bruh you don't any"
-]
-
 export const car = [
 	"Benz", "four rings", "Honda", "Toyota", "I don't have a car"
 ]
@@ -33,45 +29,5 @@ export const category = [
 	{label: "Food", value: "food"},
 	{label: "Place", value: "place"},
 	{label: "Drinks", value: "drinks"},
-	{label: "Lover", value: "lover"},
 	{label: "Car", value: "car"},
 ]
-
-// export const food = [
-// 	{label: "Ramen", value: 0},
-// 	{label: "Korean", value: 1},
-// 	{label: "Sushi", value: 2},
-// 	{label: "Chinese", value: 3},
-// 	{label: "Taiwanese", value: 4},
-// 	{label: "Burger", value: 5},
-// 	{label: "Pizza", value: 6},
-// 	{label: "McDonal's", value: 7},
-// ]
-
-// export const place = [
-// 	{label: "Cafe", value: 0},
-// 	{label: "Library", value: 1},
-// 	{label: "My heart", value: 2},
-// 	{label: "Night market", value: 3},
-// 	{label: "UWaterloo", value: 4},
-// 	{label: "UofT", value: 5},
-// ]
-
-// export const drinks = [
-// 	{label: "Coffee", value: 0},
-// 	{label: "Bubble milk tea with no bubbles", value: 1},
-// 	{label: "A shot of Martini", value: 2},
-// 	{label: "Whiskey neat", value: 3},
-// ]
-
-// export const lover = [
-// 	{label: "bruh you don't any", value: 0},
-// ]
-
-// export const car = [
-// 	{label: "Benz", value: 0},
-// 	{label: "four rings", value: 1},
-// 	{label: "Honda", value: 2},
-// 	{label: "Toyota", value: 3},
-// 	{label: "I don't have a car", value: 4},
-// ]
