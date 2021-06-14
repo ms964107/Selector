@@ -1,6 +1,6 @@
 # Selector
 
-Don't know what to eat for supper? No problem!
+Don't know what to eat for supper? No problem!  
 Selector is a React Native APP that helps you make your decision!
 
 <a href="url"><img src="GIF/zh.gif" width="200" ></a>
@@ -19,8 +19,9 @@ Selector is a React Native APP that helps you make your decision!
 - It supports in both English and Traditional Chinese. However, their lists of choices are made independently
 
 # Next Step
-- StyleSheet
 - Allow user to add more categories and options
+- More visual animations on "Choose": wheel spinner, for instance
+- Better StyleSheet and styling refactoring
 
 [React Native]: <https://reactnative.dev/>
 [React Navigation]: <https://reactnavigation.org/>
